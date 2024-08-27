@@ -146,6 +146,22 @@
     border-radius: 1rem;
 }
 
+.detalhes {
+    background-color: rgb(255, 255, 255);
+    width: calc(100% + 2rem); /* Expande para a mesma largura do contêiner incluindo o padding */
+    margin: 10px -1rem -1rem -1rem; /* Remove o padding de 1rem e ajusta a margem superior */
+    height: 250px;
+    border-radius: 1rem 1rem 1rem 1rem; /* Arredonda somente as bordas inferiores */
+    padding: 1rem; /* Padding interno opcional */
+    font-size: .625rem;
+}
+
+.detalhes .detalhe {
+    color: gray;
+    padding-left: 10px;
+}
+
+
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;

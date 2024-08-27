@@ -19,6 +19,38 @@ function convertPokemonToLi(pokemon) {
                 <img src="${pokemon.photo}"
                      alt="${pokemon.name}">
             </div>
+            <div class="detalhes">
+                    <p>Detalhes</p>
+                    <div>
+                        <span>HP</span>
+                        <span id="hp" class="detalhe">${pokemon.hp}</span>
+                    </div>
+                    <br>
+                    <div>
+                        <span>Attack</span>
+                        <span id="attack" class="detalhe">${pokemon.attack}</span>
+                    </div>
+                    <br>
+                    <div>
+                        <span>Defense</span>
+                        <span id="defense" class="detalhe">${pokemon.defense}</span>
+                    </div>
+                    <br>
+                    <div>
+                        <span>speed</span>
+                        <span id="speed" class="detalhe">${pokemon.speed}</span>
+                    </div>
+                    <br>
+                    <div>
+                        <span">Move</span>
+                        <span id="move" class="detalhe">${pokemon.move}</span>
+                    </div>
+                    <br>
+                    <div>
+                        <span>especial</span>
+                        <span id="especial" class="detalhe">${pokemon.especial}</span>
+                    </div>
+                </div>
         </li>
     `
 }
